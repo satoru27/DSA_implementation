@@ -36,6 +36,21 @@ def print_info(item_lst, name_lst):
         print(f'{name} bits = {no_bits(item)}\n')
 
 
+#adicionar funcoes para utilizar primos pequenos e testar
+
+
+def generate_small_q():
+	pass
+
+
+def generate_small_p(q):
+	pass
+
+
+def generate_small_g(q,p):
+	pass
+
+
 def generate_q():
     q = gmp.mpz_urandomb(gmp.random_state(random.randint(0, 367263292)), N)
     while not gmp.is_prime(q):
